@@ -1,0 +1,21 @@
+name: FeedNHeal
+main: FeedNHeal\Main
+version: 1.0.0
+api: 5.0.0
+author: ZyberPE
+
+commands:
+  feed:
+    description: Restore hunger bar
+    usage: "/feed"
+    permission: feed.use
+  heal:
+    description: Restore health
+    usage: "/heal"
+    permission: heal.use
+
+permissions:
+  feed.use:
+    default: op
+  heal.use:
+    default: op
