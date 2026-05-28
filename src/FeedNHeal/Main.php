@@ -24,7 +24,7 @@ class Main extends PluginBase {
 
             case "feed":
                 if (!$sender->hasPermission("feed.use")) {
-                    $sender->sendMessage("§cYou do not have permission.");
+                    $sender->sendMessage("§cYou do not have permission purchase a rank too have access.");
                     return true;
                 }
 
